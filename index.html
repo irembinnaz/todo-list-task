@@ -6,10 +6,46 @@
     <title>Todo List</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <main class="todo-container">
+
         <h1>Todo List</h1>
+
+        <div class="todo-form">
+            <input
+                type="text"
+                placeholder="Yeni görev ekle..."
+                aria-label="Yeni görev"
+            >
+            <button class="add-button">Ekle</button>
+        </div>
+
+        <ul class="todo-list">
+
+            <li class="todo-item">
+                <span>HTML çalışmalarını tamamla</span>
+                <button class="delete-button">Sil</button>
+            </li>
+
+            <li class="todo-item completed">
+                <span>Git tekrarını yap</span>
+                <button class="delete-button">Sil</button>
+            </li>
+
+            <li class="todo-item">
+                <span>CSS tasarımını hazırla</span>
+                <button class="delete-button">Sil</button>
+            </li>
+
+            <li class="todo-item completed">
+                <span>GitHub repository oluştur</span>
+                <button class="delete-button">Sil</button>
+            </li>
+
+        </ul>
+
     </main>
 
 </body>
